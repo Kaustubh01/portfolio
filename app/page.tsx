@@ -3,9 +3,9 @@ import React from 'react'
 const Home = () => {
   return (
     <div
-      className='bg-neutral-100'
+      className='bg-neutral-100 w-full h-screen'
     >
-      <h1>Kaustubh</h1>
+      <h1 className='text-black'>Kaustubh</h1>
     </div>
   )
 }
