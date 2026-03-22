@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import Typewriter from "typewriter-effect";
+import Hero from './components/hero';
 
 const Home = () => {
   const [loading, setLoading] = useState(true);
@@ -49,7 +50,7 @@ const Home = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
-          
+          <Hero/>
         </motion.div>
       )}
 
