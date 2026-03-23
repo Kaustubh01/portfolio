@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://kaustubh01.me
+
+# Sitemaps
+Sitemap: https://kaustubh01.me/sitemap.xml
